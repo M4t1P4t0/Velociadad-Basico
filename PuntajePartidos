@@ -1,0 +1,7 @@
+PG= int(input("Ingrese la cantidad de PARTIDOS GANADOS :"))
+PP= int(input("Ingrese la cantidad de PARTIDOS PERDIDOS :"))
+PE= int(input("Ingrese la cantidad de PARTIDOS EMPATADOS :"))
+PG= PG*3
+PP= PP*-1
+PT= PG + PP + PE
+print("La cantidad de puntos es ",PT)
