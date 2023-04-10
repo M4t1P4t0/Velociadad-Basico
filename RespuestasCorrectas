@@ -1,0 +1,7 @@
+RC= int(input("Ingrese la cantidad de respuestas correctas :"))
+RI= int(input("Ingrese la cantidad de respuestas Incorrectas :"))
+RB= int(input("Ingrese la cantidad de respuestas En blanco :"))
+RI= RI*-1
+RB= 0
+PF= RC + RI
+print("La cantidad de puntos es ",PF)
