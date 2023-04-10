@@ -1,0 +1,15 @@
+import math
+GB= float(input("Ingrese la cantidad de GB: " ))
+MG=float 
+MG= GB*1024
+MD= float
+MD= MG/1.44
+
+print("La cantidad de discos necesarios son ",math.ceil(MD))
+
+
+
+
+
+
+
