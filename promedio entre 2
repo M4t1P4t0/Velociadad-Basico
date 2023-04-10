@@ -1,0 +1,4 @@
+num1=float(input("ingrese un numero"))
+num2=float(input("ingrese un numero"))
+prom=(num1+num2)/2
+print("El promedio entre los 2 numeros es ",prom)
